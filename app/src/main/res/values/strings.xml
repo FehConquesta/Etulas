@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Etulas</string>
+    <string name="cadastrar">SIGN UP</string>
+    <string name="login">SIGN IN</string>
+    <string name="usuario">E-MAIL</string>
+    <string name="senha">Senha</string>
+    <string name="cad_email">Informe seu e-mail</string>
+    <string name="cad_nome">Informe seu Nome</string>
+    <string name="cad_senha">Informe sua senha</string>
+    <string name="cad_confir_senha">Confirme sua senha</string>
+    <string name="next">Avançar</string>
+    <string name="cad">CADASTRO</string>
+    <string name="conv">INFORMAÇÕES DO CONVENIO</string>
+    <string name="cad_conv">Convenio</string>
+    <string name="cad_mod">Tipo do Convenio</string>
+    <string name="cad_num">Numero da carteirinha</string>
+    <string name="salvar">SALVAR</string>
+    <string name="hospt">HOSPITAIS NA REGIÃO</string>
+</resources>

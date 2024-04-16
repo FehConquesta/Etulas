@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cadastro"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/vetorLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="179dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/conv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vetorLogo"
+        android:text="@string/conv"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/cadConv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/conv"
+        android:hint="@string/cad_conv"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/campos"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/cadTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cadConv"
+        android:hint="@string/cad_mod"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/campos"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/cadNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cadTipo"
+        android:hint="@string/cad_num"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/campos"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cadNum"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/salvar" />
+
+
+</RelativeLayout>
